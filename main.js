@@ -5,8 +5,31 @@ console.log(quick_draw_set[random_no]);
 sketch = quick_draw_date_set[random_number];
 document.getElementById('sketch_name').innerHTML = 'Sketch To Be Drawn: ' + sketch;
 
-timer_counter=0;
+timer_counter=400;
 score=0;
 drawn_sketch="";
 timer_check="";
-drawn_sketch="";
+answer_holder="set";
+
+function draw(){
+    check_sketch()
+}
+
+function check_sketch(){
+
+    document.getElementById('score').innerHTML = 'Score: ' + score;
+    if (timer_counter < 400) {
+
+    }
+}
+
+function updateCanvas(){
+    background("white");
+}
+
+function setup(){
+    canvas = createCanvas(280,280);
+    canvas.center();
+    background("white");
+}
+
