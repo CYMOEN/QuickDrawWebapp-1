@@ -31,5 +31,6 @@ function setup(){
     canvas = createCanvas(280,280);
     canvas.center();
     background("white");
+    canvas.position(560,250);
 }
 
